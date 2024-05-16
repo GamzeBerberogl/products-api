@@ -2,17 +2,6 @@
 
 return [
 
-    /*
-    |--------------------------------------------------------------------------
-    | Doğrulama
-    |--------------------------------------------------------------------------
-    |
-    | Aşağıdaki öğeler doğrulama(validation) işlemleri sırasında kullanılan varsayılan hata
-    | mesajlarını içermektedir. `size` gibi bazı kuralların birden çok çeşidi
-    | bulunmaktadır. Her biri ayrı ayrı düzenlenebilir.
-    |
-    */
-
     'accepted' => ':attribute kabul edilmelidir.',
     'accepted_if' => ':attribute, :other :value olduğunda kabul edilmelidir.',
     'active_url' => ':attribute geçerli bir URL olmalıdır.',
