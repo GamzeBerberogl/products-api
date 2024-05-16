@@ -78,6 +78,12 @@ return [
             'sslmode' => 'prefer',
         ],
 
+        'mongodb' => [
+            'driver' => 'mongodb',
+            'dsn' => env('DB_URI', 'mongodb+srv://root:123654@192.168.0.222/SimtesPortaL/myappdb?retryWrites=true&w=majority'),
+            'database' => 'SimtesPortaL',
+        ],
+
         'sqlsrv' => [
             'driver' => 'sqlsrv',
             'url' => env('DATABASE_URL'),
